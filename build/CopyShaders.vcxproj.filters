@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\computer science\school course\cse 169\pa1\build\CMakeFiles\69c4326375506ad7d07bde8495370422\CopyShaders.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\computer science\school course\cse 169\pa1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\computer science\school course\cse 169\pa1\build\CMakeFiles\CopyShaders" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EFC3224D-E5D2-3DFB-9BA1-8EFAD8BC9619}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
