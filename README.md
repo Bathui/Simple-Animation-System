@@ -45,4 +45,4 @@ cmake --build build --config Release
 ```
 
 ## Results
-![Demo](demo/demo.mp4)
+![Demo](demo/demo.gif)
