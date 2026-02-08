@@ -20,12 +20,15 @@ set(
     src/imgui_widgets.cpp
     src/imgui_impl_opengl3.cpp
     src/imgui_impl_glfw.cpp
+    src/Animation.cpp
+    src/Skin.cpp
 )
 
 # Add header files
 set(
     HEADERS
     include/core.h
+    include/Animation.h
     include/Camera.h
     include/Cube.h
     include/Shader.h
@@ -33,6 +36,7 @@ set(
     include/Window.h
     include/Joint.h
     include/Skeleton.h
+    include/Skin.h
 )
 
 # Require GL

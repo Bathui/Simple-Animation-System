@@ -25,10 +25,15 @@ public:
     // Get pointers to pose components so ImGui can modify them directly
     float* GetPosePtr() { return &pose[0]; }
     
+    glm::mat4 GetWorldMatrix () { return WorldMtx;}
+
     // Limit accessors
     glm::vec2 GetRotXLimit() const { return rotxlimit; }
     glm::vec2 GetRotYLimit() const { return rotylimit; }
     glm::vec2 GetRotZLimit() const { return rotzlimit; }
+
+    void SetOffset(const glm::vec3& v) { offset = v; }
+    void SetPose(const glm::vec3& v) { pose = v; }
     
 private:
     // Hierarchical structure

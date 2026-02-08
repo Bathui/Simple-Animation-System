@@ -4,6 +4,9 @@
 #include "Cube.h"
 #include "Skeleton.h"
 #include "Shader.h"
+#include "skin.h"
+#include "skin.h"
+#include "Animation.h"
 #include "core.h"
 
 class Window {
@@ -16,9 +19,16 @@ public:
     // Objects to render
     static Cube* cube;
     static Skeleton* skeleton;
+    static Skin* skin;
 
     // Shader Program
     static GLuint shaderProgram;
+    static GLuint skinShaderProgram;
+    
+
+    static Animation* animation;
+    static float time;
+    static bool isPlaying;
 
     static std::string lastLoadedFile;
     
@@ -44,4 +54,8 @@ public:
     static void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods);
     static void mouse_callback(GLFWwindow* window, int button, int action, int mods);
     static void cursor_callback(GLFWwindow* window, double currX, double currY);
+
+    // Instruction guide
+    static void PrintInstructions();
+
 };

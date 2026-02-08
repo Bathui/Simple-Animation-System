@@ -367,7 +367,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="E:\computer science\school course\cse 169\pa1\src\imgui_widgets.cpp" />
     <ClCompile Include="E:\computer science\school course\cse 169\pa1\src\imgui_impl_opengl3.cpp" />
     <ClCompile Include="E:\computer science\school course\cse 169\pa1\src\imgui_impl_glfw.cpp" />
+    <ClCompile Include="E:\computer science\school course\cse 169\pa1\src\Animation.cpp" />
+    <ClCompile Include="E:\computer science\school course\cse 169\pa1\src\Skin.cpp" />
     <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\core.h" />
+    <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\Animation.h" />
     <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\Camera.h" />
     <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\Cube.h" />
     <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\Shader.h" />
@@ -375,6 +378,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\Window.h" />
     <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\Joint.h" />
     <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\Skeleton.h" />
+    <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\Skin.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

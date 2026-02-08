@@ -1,5 +1,7 @@
 #include "Skeleton.h"
 
+
+
 Skeleton::Skeleton() {
     root = nullptr;
 }
@@ -27,7 +29,10 @@ bool Skeleton::Load(const char* filename) {
              break;
         }
     }
-
+    if (root) {
+        jointList.clear(); // Safety first!
+        BuildJointList(root);
+    }
     tokenizer.Close();
     return true;
 }
@@ -41,5 +46,13 @@ void Skeleton::Update() {
 void Skeleton::Draw(const glm::mat4& viewProjMtx, GLuint shader) {
     if (root) {
         root->Draw(viewProjMtx, shader);
+    }
+}
+
+void Skeleton::BuildJointList(Joint* j) {
+    if (!j) return;
+    jointList.push_back(j);
+    for (auto child : j->GetChildren()) {
+        BuildJointList(child);
     }
 }

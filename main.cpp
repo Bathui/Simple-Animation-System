@@ -28,7 +28,7 @@ void setup_opengl_settings() {
     // Related to shaders and z value comparisons for the depth buffer.
     glDepthFunc(GL_LEQUAL);
     // Set polygon drawing mode to fill front and back of each polygon.
-    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+    glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
     // Set clear color to black.
     glClearColor(0.0, 0.0, 0.0, 0.0);
 }
@@ -81,11 +81,26 @@ int main(int argc, char** argv) {
     if (!Window::initializeObjects()) exit(EXIT_FAILURE);
 
     // Load skeleton
-    const char* filename = "test.skel";
-    if (argc > 1) {
-        filename = argv[1];
+    const char* skeleton_name = nullptr;
+    const char* skin_name = nullptr;
+    if (argc == 2) { // only skeleton provided
+        skeleton_name = argv[1];
+        Window::LoadSkeleton(skeleton_name);
     }
-    Window::LoadSkeleton(filename);
+    else if (argc == 3) {
+        skeleton_name = argv[1];
+        skin_name = argv[2];
+        Window::LoadSkeleton(skeleton_name);
+        Window::LoadSkeleton(skin_name);
+    }
+    else if (argc == 4) {
+        skeleton_name = argv[1];
+        skin_name = argv[2];
+        const char* anim_name = argv[3];
+        Window::LoadSkeleton(skeleton_name);
+        Window::LoadSkeleton(skin_name);
+        Window::LoadSkeleton(anim_name);
+    }
 
     // Loop while GLFW window should stay open.
     while (!glfwWindowShouldClose(window)) {

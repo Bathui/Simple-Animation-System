@@ -46,9 +46,18 @@
     <ClCompile Include="E:\computer science\school course\cse 169\pa1\src\imgui_impl_glfw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E:\computer science\school course\cse 169\pa1\src\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\computer science\school course\cse 169\pa1\src\Skin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\Animation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\Camera.h">
@@ -70,6 +79,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\Skeleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\computer science\school course\cse 169\pa1\include\Skin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

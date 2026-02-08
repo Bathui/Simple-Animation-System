@@ -1,0 +1,21 @@
+MSBuild version 17.14.23+b0019275e for .NET Framework
+
+  main.cpp
+  Window.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+LINK : warning LNK4217: symbol '__glewBindBuffer' defined in 'glew32s.lib(glew.obj)' is imported by 'Skin.obj' in function '"public: bool __cdecl Skin::Load(char const *)" (?Load@Skin@@QEAA_NPEBD@Z)' [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+LINK : warning LNK4217: symbol '__glewBufferData' defined in 'glew32s.lib(glew.obj)' is imported by 'Skin.obj' in function '"public: bool __cdecl Skin::Load(char const *)" (?Load@Skin@@QEAA_NPEBD@Z)' [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+LINK : warning LNK4217: symbol '__glewDeleteBuffers' defined in 'glew32s.lib(glew.obj)' is imported by 'Skin.obj' in function '"public: __cdecl Skin::~Skin(void)" (??1Skin@@QEAA@XZ)' [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+LINK : warning LNK4217: symbol '__glewGenBuffers' defined in 'glew32s.lib(glew.obj)' is imported by 'Skin.obj' in function '"public: bool __cdecl Skin::Load(char const *)" (?Load@Skin@@QEAA_NPEBD@Z)' [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+LINK : warning LNK4217: symbol '__glewEnableVertexAttribArray' defined in 'glew32s.lib(glew.obj)' is imported by 'Skin.obj' in function '"public: bool __cdecl Skin::Load(char const *)" (?Load@Skin@@QEAA_NPEBD@Z)' [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+LINK : warning LNK4217: symbol '__glewGetUniformLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'Skin.obj' in function '"public: void __cdecl Skin::Draw(struct glm::mat<4,4,float,0> const &,unsigned int)" (?Draw@Skin@@QEAAXAEBU?$mat@$03$03M$0A@@glm@@I@Z)' [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+LINK : warning LNK4217: symbol '__glewUniformMatrix4fv' defined in 'glew32s.lib(glew.obj)' is imported by 'Skin.obj' in function '"public: void __cdecl Skin::Draw(struct glm::mat<4,4,float,0> const &,unsigned int)" (?Draw@Skin@@QEAAXAEBU?$mat@$03$03M$0A@@glm@@I@Z)' [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+LINK : warning LNK4217: symbol '__glewUseProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'Skin.obj' in function '"public: void __cdecl Skin::Draw(struct glm::mat<4,4,float,0> const &,unsigned int)" (?Draw@Skin@@QEAAXAEBU?$mat@$03$03M$0A@@glm@@I@Z)' [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+LINK : warning LNK4217: symbol '__glewVertexAttribPointer' defined in 'glew32s.lib(glew.obj)' is imported by 'Skin.obj' in function '"public: bool __cdecl Skin::Load(char const *)" (?Load@Skin@@QEAA_NPEBD@Z)' [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+LINK : warning LNK4217: symbol '__glewVertexAttribIPointer' defined in 'glew32s.lib(glew.obj)' is imported by 'Skin.obj' in function '"public: bool __cdecl Skin::Load(char const *)" (?Load@Skin@@QEAA_NPEBD@Z)' [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+LINK : warning LNK4217: symbol '__glewBindVertexArray' defined in 'glew32s.lib(glew.obj)' is imported by 'Skin.obj' in function '"public: void __cdecl Skin::Draw(struct glm::mat<4,4,float,0> const &,unsigned int)" (?Draw@Skin@@QEAAXAEBU?$mat@$03$03M$0A@@glm@@I@Z)' [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+LINK : warning LNK4217: symbol '__glewDeleteVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'Skin.obj' in function '"public: __cdecl Skin::~Skin(void)" (??1Skin@@QEAA@XZ)' [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+LINK : warning LNK4217: symbol '__glewGenVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'Skin.obj' in function '"public: bool __cdecl Skin::Load(char const *)" (?Load@Skin@@QEAA_NPEBD@Z)' [E:\computer science\school course\cse 169\pa1\build\menv.vcxproj]
+  menv.vcxproj -> E:\computer science\school course\cse 169\pa1\build\Release\menv.exe
+  Building Custom Rule E:/computer science/school course/cse 169/pa1/CMakeLists.txt
